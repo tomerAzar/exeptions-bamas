@@ -1,0 +1,22 @@
+{
+  "name": "exeptionsts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean & tsc",
+    "startExe1": "npm run build & node dist/Exe1.js",
+    "startExe2": "npm run build & node dist/Exe2.js",
+    "clean": "del-cli dist/**/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "del-cli": "^1.1.0",
+    "prompt-sync": "^4.2.0",
+    "readline": "^1.3.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
